@@ -1,15 +1,17 @@
-import AboutUs from '@/components/AboutUs'
-import OurServices from '@/components/OurServices'
-import Testimonials from '@/components/Testimonials'
-import OurNews from '@/components/OurNews'
+import SubBanner from './component/SubBanner'
+import AboutUsSection from './component/AboutUsSection'
+import StatisticSection from './component/StatisticSection'
+import ChooseUs from '@/components/ChooseUs'
+import ContactUs from '@/components/ContactUs'
 
 export default function About() {
   return (
     <main>
-      <AboutUs />
-      <OurServices />
-      <Testimonials />
-      <OurNews />
+      <SubBanner />
+      <AboutUsSection />
+      <StatisticSection />
+       <ChooseUs />
+       <ContactUs />
     </main>
   )
 }

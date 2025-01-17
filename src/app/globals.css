@@ -1587,7 +1587,7 @@ textarea {
 /* About Page Sub Banner Section Style */
 
 .about-banner-section {
-  background-image: url("../../public/images/about_subbanner_background.png");
+  background-image: url("/images/about_subbanner_background.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -1686,7 +1686,7 @@ textarea {
 /* About Page Statistics Section Style */
 
 .stats_section {
-  background-image: url("../../public/images/stats_background.png");
+  background-image: url("/images/stats_background.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
