@@ -1,11 +1,18 @@
-import Image from "next/image";
-import Link from "next/link";
+import Image, { StaticImageData } from "next/image";
 import Price1 from "../../public/images/pricing_tables_1.png";
 import Price2 from "../../public/images/pricing_tables_2.png";
 import Price3 from "../../public/images/pricing_tables_3.png";
 import { BiCheck } from "react-icons/bi";
 
-const pricingPlans = [
+interface PricingPlan {
+  id: number;
+  image: StaticImageData;
+  price: string;
+  plan: string;
+  features: string[];
+}
+
+const pricingPlans: PricingPlan[] = [
   {
     id: 1,
     image: Price1,
@@ -47,7 +54,14 @@ const pricingPlans = [
   },
 ];
 
-const PricingTableBox = ({ image, price, plan, features }: any) => (
+interface PricingTableBoxProps {
+  image: StaticImageData;
+  price: string;
+  plan: string;
+  features: string[];
+}
+
+const PricingTableBox = ({ image, price, plan, features }: PricingTableBoxProps) => (
   <div className="col-lg-4 col-md-4 col-sm-6 col-xs-12">
     <div className="pricing_tables_box_content">
       <div className="pricing_tables_box_upper_portion">
@@ -62,7 +76,7 @@ const PricingTableBox = ({ image, price, plan, features }: any) => (
       <div className="pricing_tables_box_lower_portion">
         <h5>{plan}</h5>
         <ul className="list-unstyled">
-          {features.map((feature: any, index: any) => (
+          {features.map((feature, index) => (
             <li key={index} className="flex justify-start items-center gap-2">
               <BiCheck className="text-orange-600 text-xl" />
               {feature}
