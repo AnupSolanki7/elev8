@@ -78,8 +78,8 @@ export default function ChooseUs() {
         <div className="row">
           <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <div className="choose_us_content">
-              <h5>WHY CHOOSE US</h5>
-              <h2>BUILD YOUR BEST BODY</h2>
+              <h5 className="text-3xl">WHY CHOOSE US</h5>
+              <h2  className="text-6xl font-bold">BUILD YOUR BEST BODY</h2>
             </div>
           </div>
         </div>
