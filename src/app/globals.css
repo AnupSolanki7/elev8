@@ -1992,7 +1992,7 @@ th {
 /* Trainers Page Sub Banner Section Style */
 
 .trainers-banner-section {
-  background-image: url("../../public/images/trainers_subbanner_background.png");
+  background-image: url("/images/trainers_subbanner_background.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

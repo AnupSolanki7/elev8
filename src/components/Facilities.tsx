@@ -46,9 +46,8 @@ export default function Facilities() {
               </figure>
               <div className="facilities_content">
                 <figure>
-                  <Image src={Facility4} alt="facility image" />
-                  <img
-                    src="./assets/images/facilities_icon_2.png"
+                  <Image
+                    src={Facility4}
                     alt=""
                     className="img-fluid"
                   />

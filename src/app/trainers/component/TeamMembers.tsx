@@ -66,20 +66,21 @@ const TeamMemberCard: FC<TeamMember> = ({ name, role, image }) => (
         <h5>{name}</h5>
         <p>{role}</p>
         <div className="team_member_social_icons flex justify-center items-center">
-          {[
-            <FaFacebookF className="text-xl" />,
-            <FaTwitter className="text-xl" />,
-            <AiFillInstagram className="text-xl" />,
-          ].map((social, index) => (
-            <a key={index} href="#" className="text-decoration-none">
-              <i
-                className="flex justify-center items-center"
-                aria-hidden="true"
-              >
-                {social}
-              </i>
-            </a>
-          ))}
+          <a href="#" className="text-decoration-none">
+            <i className="flex justify-center items-center" aria-hidden="true">
+              <FaFacebookF className="text-xl" />
+            </i>
+          </a>
+          <a href="#" className="text-decoration-none">
+            <i className="flex justify-center items-center" aria-hidden="true">
+              <FaTwitter className="text-xl" />
+            </i>
+          </a>
+          <a href="#" className="text-decoration-none">
+            <i className="flex justify-center items-center" aria-hidden="true">
+              <AiFillInstagram className="text-xl" />
+            </i>
+          </a>
         </div>
       </div>
     </div>

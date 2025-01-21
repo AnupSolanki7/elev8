@@ -1,4 +1,6 @@
+import Image from "next/image";
 import React from "react";
+import TableIcon from "../../../../public/images/services_table_icon.png"
 
 const ServicesSchedule = () => {
   return (
@@ -17,8 +19,8 @@ const ServicesSchedule = () => {
             <tr>
               <th>
                 <figure className="mb-0">
-                  <img
-                    src="./assets/images/services_table_icon.png"
+                  <Image
+                    src={TableIcon}
                     alt=""
                     className="img-fluid"
                   />

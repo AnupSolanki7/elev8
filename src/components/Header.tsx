@@ -38,8 +38,8 @@ export default function Header() {
   };
 
   useEffect(() => {
-    const handleClickOutside = (event: any) => {
-      if (menuRef.current && !menuRef.current.contains(event.target)) {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (menuRef.current && !menuRef.current.contains(event.target as Node)) {
         closeMenu();
       }
     };
