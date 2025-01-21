@@ -1,17 +1,17 @@
 import React from "react";
 
-const ServiceBanner = () => {
+const PriceBanner = () => {
   return (
-    <div className="sub-banner-section services-banner-section">
+    <div className="sub-banner-section pricing-banner-section">
       <section className="banner-section md:!pt-[300px]">
         <div className="container">
           <div className="row">
             <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
               <div className="banner-section-content">
-                <h1 data-aos="fade-up" className="text-8xl font-bold">OUR SERVICES</h1>
+                <h1 data-aos="fade-up">PRICING PLAN</h1>
                 <div className="btn_wrapper">
                   <span className="sub_home_span">Home </span>-
-                  <span className="sub_span"> Services</span>
+                  <span className="sub_span"> Pricing</span>
                 </div>
               </div>
             </div>
@@ -22,4 +22,4 @@ const ServiceBanner = () => {
   );
 };
 
-export default ServiceBanner;
+export default PriceBanner;

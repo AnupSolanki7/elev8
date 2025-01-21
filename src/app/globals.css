@@ -1476,6 +1476,15 @@ textarea {
   margin-bottom: 18px;
   color: var(--e-global-color-dark-grayish);
 }
+.about_col .contact_btn {
+  background-image: linear-gradient(
+    90deg,
+    var(--e-global-color-bright-red) 0%,
+    var(--e-global-color-soft-red) 100%
+  );
+  border-radius: 50px;
+  color: var(--e-global-color-white) !important;
+}
 .middle-portion .hours_col {
   padding-left: 42px;
 }
@@ -1995,7 +2004,7 @@ th {
 /* Trainers Page Quote Section Style */
 
 .quote_section {
-  background-image: url("../../public/images/quote_background.png");
+  background-image: url("/images/quote_background.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -2053,7 +2062,7 @@ th {
 /* Pricing Page Sub Banner Section Style */
 
 .pricing-banner-section {
-  background-image: url("../../public/images/pricing_subbanner_background.png");
+  background-image: url("/images/pricing_subbanner_background.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -2067,7 +2076,7 @@ th {
 /* Contact Page Sub Banner Section Style */
 
 .contact-banner-section {
-  background-image: url("../../public/images/contact_subbanner_background.png");
+  background-image: url("/images/contact_subbanner_background.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

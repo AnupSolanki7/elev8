@@ -21,7 +21,7 @@ export default function Testimonials() {
   };
   return (
     <section className="testimonials_section">
-      <div className="container">
+      <div className="container h-[80vh]">
         <div className="row">
           <div className="col-lg-7 col-md-7 col-sm-12 col-xs-12">
             <div className="testimonials_heading_content" data-aos="fade-right">
@@ -59,7 +59,7 @@ export default function Testimonials() {
           <div className="col-lg-5 col-md-5 col-sm-12 col-xs-12 d-lg-block d-md-flex align-items-center">
             <div className="testimonials_image">
               <figure className="mb-0">
-                <Image src={Test3} alt="testimonial" />
+                <Image src={Test3} className="max-w-max" alt="testimonial"  />
               </figure>
             </div>
           </div>

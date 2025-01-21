@@ -3,7 +3,7 @@ import React from "react";
 const SubBanner = () => {
   return (
     <div className="sub-banner-section about-banner-section">
-      <section className="banner-section !pt-[300px]">
+      <section className="banner-section md:!pt-[300px]">
         <div className="container">
           <div className="row">
             <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">

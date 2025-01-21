@@ -10,7 +10,7 @@ export default function ContactUs() {
           <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 d-lg-block d-md-flex align-items-center">
             <div className="contact_us_image">
               <figure className="mb-0">
-                <Image src={ContactImage} alt="Contact Us" />
+                <Image src={ContactImage} className="max-w-max" alt="Contact Us" />
               </figure>
             </div>
           </div>
