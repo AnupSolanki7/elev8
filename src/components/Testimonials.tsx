@@ -20,8 +20,8 @@ export default function Testimonials() {
     arrows: false,
   };
   return (
-    <section className="testimonials_section">
-      <div className="container h-[80vh]">
+    <section className="testimonials_section overflow-hidden">
+      <div className="container h-[80vh] ">
         <div className="row">
           <div className="col-lg-7 col-md-7 col-sm-12 col-xs-12">
             <div className="testimonials_heading_content" data-aos="fade-right">
@@ -57,7 +57,7 @@ export default function Testimonials() {
             </Slider>
           </div>
           <div className="col-lg-5 col-md-5 col-sm-12 col-xs-12 d-lg-block d-md-flex align-items-center">
-            <div className="testimonials_image">
+            <div className="testimonials_image ">
               <figure className="mb-0">
                 <Image src={Test3} className="max-w-max" alt="testimonial"  />
               </figure>
